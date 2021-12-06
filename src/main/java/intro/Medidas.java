@@ -13,14 +13,28 @@ public class Medidas {
     // 3.2 - Métodos e Funções
     // args é uma variável, ela funciona como uma caixinha em que você vai guardar as informações para usar depois
     public static void main(String[] args){
-        System.out.println("Bom dia!!!");
-        System.out.println("Cálculo de Areas");
 
+        calcularAreaModoCurto();
+        calcularAreaModoExtenso();
+
+        //System.out.println("Cálculo de Areas");
 
     }
 
-    public void calcularAreaModoExtenso(){
+    public static void calcularAreaModoCurto(){
+        System.out.println("Cálculo de Area Modo Curto");
+        int largura = 4;
+        int comprimento = 3;
+
+        System.out.println("Para a largura de " + largura + "m e o comprimento de "
+                + comprimento + "m a área é de " + largura*comprimento + "m2");
+
+    }
+
+    
+    public static void calcularAreaModoExtenso(){
         // Calculo de area - Exemplo: o tamanho do tapete ou do piso
+        System.out.println("Cálculo de Area Modo Extenso");
         int largura;
         int comprimento;
         int resultado;
@@ -34,12 +48,4 @@ public class Medidas {
 
     }
 
-    public void calcularAreaModoCompacto(){
-        int largura = 4;
-        int comprimento = 3;
-
-        System.out.println("Para a largura de " + largura + "m e o comprimento de "
-                + comprimento + "m a área é de " + largura*comprimento + "m2");
-
-    }
 }
