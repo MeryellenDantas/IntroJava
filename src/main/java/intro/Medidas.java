@@ -13,10 +13,8 @@ public class Medidas {
     // 3.2 - Métodos e Funções
     // args é uma variável, ela funciona como uma caixinha em que você vai guardar as informações para usar depois
     public static void main(String[] args){
+        System.out.println("Bom dia!!!");
         System.out.println("Cálculo de Areas");
-
-
-        // Calculo de area reduzida
 
 
     }
